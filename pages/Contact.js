@@ -14,6 +14,7 @@ const Contact = () => {
           <ul className='my-5 flex flex-col gap-2'>
             <li>Phone 860-450-1764 </li>
             <li>Fax 860-450-1769</li>
+            <li>dansawards@att.net</li>
           </ul>
           {/* <button className='btn btn-primary'>Get Started</button> */}
           {/* <a
