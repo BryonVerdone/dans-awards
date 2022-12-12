@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 const Hero = () => {
   return (
@@ -19,7 +20,9 @@ const Hero = () => {
             glass awards, ribbons, certificates, cast bronze plaques, medals,
             engraved picture frames, desk accessories and giftware.
           </p>
-          <button className='btn btn-primary'>Get Started</button>
+          <Link href='/Contact'>
+            <button className='btn btn-primary'>Contact</button>
+          </Link>
         </div>
       </div>
     </div>
