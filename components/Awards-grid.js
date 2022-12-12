@@ -2,7 +2,7 @@ import React from 'react';
 
 const AwardsGrid = () => {
   return (
-    <section className='grid gap-4 grid-cols-2 justify-center items-center my-5'>
+    <section className='grid gap-4 grid-cols-2 justify-center items-center my-5 px-2'>
       <a
         target={'_blank'}
         href='https://premiercorporateawards.com/'
